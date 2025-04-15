@@ -34,15 +34,13 @@ header h1 {
 nav a {
   color: white;
   margin: 0 10px;
-  text-decoration: none;
 }
 
 body div {
   display: flex;
   flex-wrap: wrap; 
   width: 99%;
-  margin: 10px;
-  margin-top: 30px;
+  margin: 30px 10px 10px 10px;
   background-color: rgb(228, 227, 227); 
 }
 
@@ -57,8 +55,8 @@ aside {
 }
 
 aside img {
-  max-width: 100%;
-  border-radius: 10px;
+  width: 100%;  
+  justify-self: center;
 }
 
 aside p a:hover{
@@ -80,6 +78,9 @@ main section {
   padding-left: 35px;
   padding-right: 35px;
 }
+
+main section p{margin: 7px;}
+main section li{margin: 7px;}
 
 section {
   max-width: 800px;
