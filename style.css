@@ -59,9 +59,14 @@ aside img {
   justify-self: center;
 }
 
+aside p ul{
+  font-weight: 600;
+}
+
 aside p a:hover{
   color: rgba(255, 0, 0, 0.692);
 }
+
 
 main {
   flex: 29;
